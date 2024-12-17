@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { SkillCard } from './skill-card'
+import { SkillCard } from '../components/skill-card'
 import { Code, Server, Wrench, Lightbulb } from 'lucide-react'
 
 export function SkillsSection() {

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ProjectCard } from './project-card'
+import { ProjectCard } from '../components/project-card'
 
 export function ProjectsSection() {
 

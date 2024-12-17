@@ -1,11 +1,11 @@
 import React from 'react'
 
 import { NavBar } from './components/nav-bar'
-import Hero from './components/hero'
-import { HeroSection } from './components/hero-section'
-import { ProjectsSection } from './components/projects-section'
-import { SkillsSection } from './components/skills-section'
-import { ContactSection } from './components/contact-section'
+import Hero from './sections/hero-info'
+import { HeroSection } from './sections/hero-section'
+import { ProjectsSection } from './sections/projects-section'
+import { SkillsSection } from './sections/skills-section'
+import { ContactSection } from './sections/contact-section'
 import { Footer } from './components/footer'
 
 export default function Home() {
