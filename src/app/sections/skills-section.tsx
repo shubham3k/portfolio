@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { SkillCard } from '../components/skill-card'
+import { SkillCard } from '../component/skill-card'
 import { Code, Server, Wrench, Lightbulb } from 'lucide-react'
 
 export function SkillsSection() {
@@ -10,22 +10,22 @@ export function SkillsSection() {
     {
       title: "Frontend",
       icon: <Code />,
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "JavaScript"]
+      skills: ["JavaScript","TypeScript", "React", "Next.js", "Tailwind CSS", "HTML5", "CSS3", ]
     },
     {
       title: "Backend",
       icon: <Server />,
-      skills: ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "GraphQL"]
+      skills: ["Node.js", "Express","PostgreSQL", "MongoDB", "GraphQL"]
     },
     {
-      title: "Tools",
+      title: "Languages & Tools",
       icon: <Wrench />,
-      skills: ["Git", "Docker", "Vercel", "Webpack", "Jest"]
+      skills: [ "Java", "Python", "YAML", "C", "Git", "Github", "Google Collab", "Jupyter","VS code", "Postman", "Docker"]
     },
     {
-      title: "Other",
+      title: "Additional",
       icon: <Lightbulb />,
-      skills: ["Responsive Design"]
+      skills: ["DSA", "OOPs","Artifical Intelligence","Cloud","Linux","Computer Networking", "Promt Engineering"]
     }
   ]
 
@@ -46,7 +46,7 @@ export function SkillsSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-5xl font-bold text-blue-400 text-center mb-12"
+          className="text-5xl font-bold text-emerald-500 text-center mb-12"
         >
           My Skills
         </motion.h2>

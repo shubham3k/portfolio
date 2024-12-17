@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ProjectCard } from '../components/project-card'
+import { ProjectCard } from '../component/project-card'
 
 export function ProjectsSection() {
 
@@ -27,16 +27,16 @@ export function ProjectsSection() {
       ),
       technologies: ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn"],
     },
-    // {
-    //   title: "Lift Foils",
-    //   description: "The website Lift Foils is dedicated to eFoil electric surfboards and hydrofoil wings, combining performance engineering with a passion for water sports.",
-    //   icon: (
-    //     <svg viewBox="0 0 24 24" fill="#61DAFB" className="w-10 h-10">
-    //       <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm0 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z" />
-    //     </svg>
-    //   ),
-    //   technologies: ["Typescript", "ReactJS", "Shopify", "WooCommerce", "AWS"],
-    // },
+    {
+      title: "Authentication System ",
+      description: " A project that implements an authentication system for a web application. It uses JWT tokens to authenticate users and restrict access to certain routes.",
+      icon: (
+        <svg viewBox="0 0 24 24" fill="#61DAFB" className="w-10 h-10">
+          <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm0 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z" />
+        </svg>
+      ),
+      technologies: ["Typescript", "ReactJS", "NodeJS", "Express", "MongoDB"],
+    },
   ]
 
   return (
@@ -56,7 +56,7 @@ export function ProjectsSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-5xl font-bold text-blue-400 text-center mb-12"
+          className="text-5xl font-bold text-emerald-500 text-center mb-12"
         >
           Projects
         </motion.h2>

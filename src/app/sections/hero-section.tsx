@@ -19,7 +19,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Hi i'm<br />
+          Hii i'm<br />
           <span className="text-emerald-500">Shubham Kushwaha</span>
         </motion.h1>
 

@@ -32,8 +32,8 @@ export function ContactSection() {
         >
           <div className="flex justify-center mt-8">
           <a href="https://www.linkedin.com/in/shubham-kushwaha-bb1712251/" target="_blank" rel="noopener noreferrer">
-            <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-              Get in Touch
+            <button className="px-4 py-2 bg-blue-500 text-white rounded 2xl hover:bg-blue-700 transition">
+              connect now
             </button>
           </a>
         </div>

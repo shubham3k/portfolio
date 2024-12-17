@@ -31,7 +31,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            A keen engineer constantly learning and implementing the latest technologies in real-world applications. Experienced in diverse fields such as web development, artificial intelligence, machine learning, data science, and cloud computing, with a strong commitment to continuous learning and growth.
+            A keen Software Engineer constantly learning and implementing the latest technologies in real-world applications. Experienced in diverse fields such as web development, artificial intelligence, machine learning, data science, and cloud computing, with a strong commitment to continuous learning and growth.
           </motion.h2>
 
         </div>
@@ -43,13 +43,13 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          {/* <Image
-            src=""
+          <Image
+            src="/data/img2.jpeg"
             alt="Your Name"
-            width={200}
-            height={200}
-            className="rounded-full border-4 border-white shadow-2xl mx-auto"
-          /> */}
+            width={250}
+            height={250}
+            className="rounded-full border-4 border-green-300 shadow-slate-500 mx-auto"
+          />
         </motion.div>
       </div>
     </section>
