@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { ArrowRight, GitlabIcon as GitHub, Linkedin } from 'lucide-react'
 
 export default function Hero() {
   return (

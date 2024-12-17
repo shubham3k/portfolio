@@ -1,6 +1,5 @@
 import { ReactNode } from 'react'
 import { Eye } from 'lucide-react'
-import ShineBorder from "@/components/ui/shine-border";
 
 interface ProjectCardProps {
   title: string

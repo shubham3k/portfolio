@@ -6,7 +6,7 @@ import { Linkedin, Mail, Twitter, Github } from 'lucide-react'
 export function ContactSection() {
   const contactLinks = [
     { name: 'LinkedIn', icon: <Linkedin />, href: 'https://www.linkedin.com/in/shubham-kushwaha-bb1712251/' },
-    { name: 'Gmail', icon: <Mail />, href: 'shubhamkushwaha2536@gmail.com' },
+    { name: 'Gmail', icon: <Mail />, href: 'www.gmail.com//shubhamkushwaha2536@gmail.com' },
     { name: 'Twitter', icon: <Twitter />, href: 'https://twitter.com/_Shubham_3k' },
     { name: 'GitHub', icon: <Github />, href: 'https://github.com/shubham3k' },
   ]

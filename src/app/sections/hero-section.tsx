@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowRight, Download } from 'lucide-react'
+import { Download } from 'lucide-react'
 
 export function HeroSection() {
   return (
