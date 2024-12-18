@@ -1,11 +1,11 @@
-A portfolio website created using [Next.js](https://nextjs.org) with a very simple and minimalstic design. 
+A portfolio website created using [Next.js](https://nextjs.org) with a very simple and minimalistic design. 
 
 
 
-Feel free to use this codebase for learning purpose. Below is step by step guidance is provided
+You can use this codebase for learning purposes. Below is step-by-step guidance provided
 ## Getting Started
 
-First, clone the repositry or download zip file :
+First, clone the repository or download the zip file :
 
 ```bash
 npm install 
