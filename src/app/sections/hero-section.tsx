@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Download } from 'lucide-react'
+import Image from 'next/image'
 
 export function HeroSection() {
   return (
@@ -29,21 +30,58 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          {/* <a
-            href="#contact"
-            className="px-6 py-3 rounded-full bg-emerald-500 text-white font-semibold flex items-center justify-center hover:bg-emerald-600 transition-colors group"
-          >
-            Let's Talk
-            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-          </a> */}
           <a
             href="https://drive.google.com/file/d/1tfL24Fwuisy-luKypFJK99poubcSCNIX/view?usp=sharing"
             download
             className="px-6 py-3 rounded-full bg-gray-800 text-white font-semibold flex items-center justify-center hover:bg-gray-700 transition-colors"
           >
-            Download Resume
+            Resume
             <Download className="ml-2 h-5 w-5" />
           </a>
+          <div className="flex space-x-4 items-center">
+            <a
+              href="https://www.linkedin.com/in/shubham-kushwaha-bb1712251/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform hover:scale-110"
+            >
+              <Image
+                src="/data/linkedin01.png"
+                alt="LinkedIn"
+                width={98}
+                height={98}
+                className="w-8 h-8 sm:w-10 sm:h-10"
+              />
+            </a>
+            <a
+              href="https://github.com/shubham3k"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform hover:scale-110"
+            >
+              <Image
+                src="/data/github.png"
+                alt="GitHub"
+                width={50}
+                height={50}
+                className="w-8 h-8 sm:w-10 sm:h-10"
+              />
+            </a>
+            <a
+              href="https://leetcode.com/shubham_3k/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform hover:scale-110"
+            >
+              <Image
+                src="/data/leetcode01.png"
+                alt="LeetCode"
+                width={50}
+                height={50}
+                className="w-8 h-8 sm:w-10 sm:h-10"
+              />
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
