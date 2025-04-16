@@ -31,7 +31,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <a
-            href="https://drive.google.com/file/d/1tfL24Fwuisy-luKypFJK99poubcSCNIX/view?usp=sharing"
+            href="https://drive.google.com/file/d/1awJOFxP__EEmD-CYYOnvSOaVtguRk3tn/view?usp=sharing"
             download
             className="px-6 py-3 rounded-full bg-gray-800 text-white font-semibold flex items-center justify-center hover:bg-gray-700 transition-colors"
           >
